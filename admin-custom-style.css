@@ -1,0 +1,38 @@
+
+
+@media only screen and (min-width: 993px) {
+  nav a.sidenav-trigger-right {
+    display: none;
+  }
+
+  nav .sidenav-trigger-right {
+  float: right;
+  position: relative;
+  z-index: 1;
+  height: 56px;
+  margin: 0 18px;
+}
+
+nav .sidenav-trigger-right i {
+  height: 56px;
+  line-height: 56px;
+}
+
+
+}
+
+
+
+@media only screen and (min-width: 601px) {
+  nav.nav-extended .nav-wrapper {
+    min-height: 64px;
+  }
+  nav, nav .nav-wrapper i, nav a.sidenav-trigger-right, nav a.sidenav-trigger-right i {
+    height: 64px;
+    line-height: 64px;
+  }
+  .navbar-fixed {
+    height: 64px;
+  }
+  
+}
